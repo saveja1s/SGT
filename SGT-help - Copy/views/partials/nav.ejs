@@ -1,0 +1,13 @@
+<ul>
+        <li class="active"><a class="active" href="/">Home</a></li>
+        <li class="active"><a href="/account">Account</a></li>
+        <li class="active"><a href="#contact">Contact</a></li>
+        <li class="active"><a href="#about">About</a></li>
+        
+        <li><a href="auth/steam" id="steam-link"><img id="sits_01" src="materials/sits_01.png"></a></li>
+        <li id="logout"><% if (!user) { %>
+            <% } else { %>
+                <a href="/account"><img src="<%= user.photos[2].value %>" width="47" height="47"/></a>
+            <% } %>
+        </li>
+    </ul>

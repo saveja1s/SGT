@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <link rel='stylesheet' href='style.css'>
+    </head>
+
+    <body>
+        <% include partials/nav.ejs %>
+        <p><img src='<%= user.photos[2].value %>' alt='Your Avatar Image' /></p>
+        <p>ID: <%= user.id %></p>
+        <p>Name: <%= user.displayName %></p>
+    </body>
+</html>

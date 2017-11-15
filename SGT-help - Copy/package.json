@@ -1,0 +1,27 @@
+{
+  "name": "sgt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saveja1s/SGT.git"
+  },
+  "author": "Mikus Kacerauskis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saveja1s/SGT/issues"
+  },
+  "homepage": "https://github.com/saveja1s/SGT#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.1",
+    "express-session": "^1.15.6",
+    "passport": "^0.4.0",
+    "passport-steam": "^1.0.8"
+  }
+}
